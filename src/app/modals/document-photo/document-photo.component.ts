@@ -70,10 +70,10 @@ export class DocumentPhotoComponent implements OnInit {
           min: 720,
           ideal: 1080,
           max: 1440
+        },
+        facingMode: {
+          exact: 'environment'
         }
-        // facingMode: {
-        //   exact: 'user'
-        // }
       },
       audio: false
     }).then(stream => {
