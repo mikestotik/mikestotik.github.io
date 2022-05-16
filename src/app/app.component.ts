@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
   constructor(
     private dialog: MatDialog) {
 
-    this.title = 'Version 1.0';
+    this.title = 'Version 1.1';
   }
 
   public ngOnInit(): void {
