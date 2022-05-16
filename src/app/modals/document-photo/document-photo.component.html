@@ -1,0 +1,22 @@
+<div class="document-photo">
+  <div class="document-photo__close">
+    <i class="fsi fsi-close" (click)="onClose()"></i>
+  </div>
+
+  <div class="document-photo__camera" [hidden]="photo">
+    <video #video autoplay></video>
+  </div>
+
+  <div class="document-photo__preview" [hidden]="!photo">
+    <canvas #canvas [width]="videoSettings.width" [height]="videoSettings.height"></canvas>
+  </div>
+
+  <div class="document-photo__actions" *ngIf="!photo">
+    <i class="fsi fsi-camera" (click)="onPhoto()"></i>
+  </div>
+
+  <div class="document-photo__actions" *ngIf="photo">
+    <i class="fsi fsi-undo2" (click)="onUndo()"></i>
+    <i class="fsi fsi-checkmark" (click)="onSave()"></i>
+  </div>
+</div>

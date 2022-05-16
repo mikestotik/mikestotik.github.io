@@ -1,0 +1,250 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rvlt28');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rvlt28#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?rvlt28') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?rvlt28') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?rvlt28##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fsi {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fsi-circle-check-off {
+  &:before {
+    content: $fsi-circle-check-off; 
+  }
+}
+.fsi-circle-check-on {
+  &:before {
+    content: $fsi-circle-check-on; 
+  }
+}
+.fsi-circle-attention {
+  &:before {
+    content: $fsi-circle-attention; 
+  }
+}
+.fsi-circle-checked {
+  &:before {
+    content: $fsi-circle-checked; 
+  }
+}
+.fsi-circle-equals {
+  &:before {
+    content: $fsi-circle-equals; 
+  }
+}
+.fsi-arrow-down {
+  &:before {
+    content: $fsi-arrow-down; 
+  }
+}
+.fsi-arrow-up {
+  &:before {
+    content: $fsi-arrow-up; 
+  }
+}
+.fsi-circle-clock {
+  &:before {
+    content: $fsi-circle-clock; 
+  }
+}
+.fsi-circle-desktop {
+  &:before {
+    content: $fsi-circle-desktop; 
+  }
+}
+.fsi-circle-error {
+  &:before {
+    content: $fsi-circle-error; 
+  }
+}
+.fsi-circle-eye {
+  &:before {
+    content: $fsi-circle-eye; 
+  }
+}
+.fsi-circle-message {
+  &:before {
+    content: $fsi-circle-message; 
+  }
+}
+.fsi-circle-mobile {
+  &:before {
+    content: $fsi-circle-mobile; 
+  }
+}
+.fsi-circle-out {
+  &:before {
+    content: $fsi-circle-out; 
+  }
+}
+.fsi-circle-oval {
+  &:before {
+    content: $fsi-circle-oval; 
+  }
+}
+.fsi-circle-play {
+  &:before {
+    content: $fsi-circle-play; 
+  }
+}
+.fsi-circle-reload {
+  &:before {
+    content: $fsi-circle-reload; 
+  }
+}
+.fsi-circle-tablet {
+  &:before {
+    content: $fsi-circle-tablet; 
+  }
+}
+.fsi-circle-time {
+  &:before {
+    content: $fsi-circle-time; 
+  }
+}
+.fsi-close {
+  &:before {
+    content: $fsi-close; 
+  }
+}
+.fsi-cube {
+  &:before {
+    content: $fsi-cube; 
+  }
+}
+.fsi-info {
+  &:before {
+    content: $fsi-info; 
+  }
+}
+.fsi-menu {
+  &:before {
+    content: $fsi-menu; 
+  }
+}
+.fsi-reload {
+  &:before {
+    content: $fsi-reload; 
+  }
+}
+.fsi-search {
+  &:before {
+    content: $fsi-search; 
+  }
+}
+.fsi-logo {
+  &:before {
+    content: $fsi-logo; 
+  }
+}
+.fsi-logo-sm {
+  &:before {
+    content: $fsi-logo-sm; 
+  }
+}
+.fsi-arrow-left-long {
+  &:before {
+    content: $fsi-arrow-left-long; 
+  }
+}
+.fsi-arrow-right-long {
+  &:before {
+    content: $fsi-arrow-right-long; 
+  }
+}
+.fsi-circle-filled {
+  &:before {
+    content: $fsi-circle-filled; 
+  }
+}
+.fsi-camera {
+  &:before {
+    content: $fsi-camera; 
+  }
+}
+.fsi-undo {
+  &:before {
+    content: $fsi-undo; 
+  }
+}
+.fsi-redo {
+  &:before {
+    content: $fsi-redo; 
+  }
+}
+.fsi-undo2 {
+  &:before {
+    content: $fsi-undo2; 
+  }
+}
+.fsi-redo2 {
+  &:before {
+    content: $fsi-redo2; 
+  }
+}
+.fsi-forward {
+  &:before {
+    content: $fsi-forward; 
+  }
+}
+.fsi-reply {
+  &:before {
+    content: $fsi-reply; 
+  }
+}
+.fsi-bin {
+  &:before {
+    content: $fsi-bin; 
+  }
+}
+.fsi-bin2 {
+  &:before {
+    content: $fsi-bin2; 
+  }
+}
+.fsi-cross {
+  &:before {
+    content: $fsi-cross; 
+  }
+}
+.fsi-checkmark {
+  &:before {
+    content: $fsi-checkmark; 
+  }
+}
+.fsi-checkmark2 {
+  &:before {
+    content: $fsi-checkmark2; 
+  }
+}
+.fsi-loop {
+  &:before {
+    content: $fsi-loop; 
+  }
+}
+.fsi-loop2 {
+  &:before {
+    content: $fsi-loop2; 
+  }
+}
+

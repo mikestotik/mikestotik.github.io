@@ -1,0 +1,41 @@
+<section class="documents-container">
+  <div class="documents-container__title">{{ title }}</div>
+
+  <div class="documents-container__payload">
+    <div class="docs-preview" *ngIf="file">
+      <div class="docs-preview__img" *ngIf="imageFile">
+        <img filePreview src="#" [file]="file" alt="">
+      </div>
+    </div>
+
+    <div class="docs">
+      <div class="docs__item" *ngIf="!file && mobileDevice && existsMediaDevices" (click)="onMakePhoto()">
+        <div class="doc-info">
+          <div class="doc-info__title">Сделать фото</div>
+        </div>
+      </div>
+
+      <div class="docs__item" *ngIf="!file" (click)="onUpload()">
+        <div class="doc-info">
+          <div class="doc-info__title">Выбрать файл</div>
+          <div class="doc-info__sub">Максимальный размер 5мб</div>
+        </div>
+      </div>
+
+      <div class="docs__item" *ngIf="file">
+        <div class="doc-info">
+          <div class="doc-info__title">{{ file.name }}</div>
+          <div class="doc-info__sub">{{ file.size | fileSize }}</div>
+        </div>
+      </div>
+
+      <div class="docs__item">
+        {{ log }}
+      </div>
+    </div>
+  </div>
+
+  <div class="documents-container__footer">
+    <button class="primary-button" (click)="onSubmit()" [class.disabled]="!file">Сохранить</button>
+  </div>
+</section>

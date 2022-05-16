@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'finshop-icons';
+  src:  url('fonts/finshop-icons.eot?rvlt28');
+  src:  url('fonts/finshop-icons.eot?rvlt28#iefix') format('embedded-opentype'),
+    url('fonts/finshop-icons.ttf?rvlt28') format('truetype'),
+    url('fonts/finshop-icons.woff?rvlt28') format('woff'),
+    url('fonts/finshop-icons.svg?rvlt28#finshop-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fsi {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'finshop-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fsi-circle-check-off:before {
+  content: "\e909";
+}
+.fsi-circle-check-on:before {
+  content: "\e91c";
+}
+.fsi-circle-attention:before {
+  content: "\e904";
+}
+.fsi-circle-checked:before {
+  content: "\e905";
+}
+.fsi-circle-equals:before {
+  content: "\e906";
+}
+.fsi-arrow-down:before {
+  content: "\e907";
+}
+.fsi-arrow-up:before {
+  content: "\e908";
+}
+.fsi-circle-clock:before {
+  content: "\e90a";
+}
+.fsi-circle-desktop:before {
+  content: "\e90b";
+}
+.fsi-circle-error:before {
+  content: "\e90c";
+}
+.fsi-circle-eye:before {
+  content: "\e90d";
+}
+.fsi-circle-message:before {
+  content: "\e90e";
+}
+.fsi-circle-mobile:before {
+  content: "\e90f";
+}
+.fsi-circle-out:before {
+  content: "\e910";
+}
+.fsi-circle-oval:before {
+  content: "\e911";
+}
+.fsi-circle-play:before {
+  content: "\e912";
+}
+.fsi-circle-reload:before {
+  content: "\e913";
+}
+.fsi-circle-tablet:before {
+  content: "\e914";
+}
+.fsi-circle-time:before {
+  content: "\e915";
+}
+.fsi-close:before {
+  content: "\e916";
+}
+.fsi-cube:before {
+  content: "\e917";
+}
+.fsi-info:before {
+  content: "\e918";
+}
+.fsi-menu:before {
+  content: "\e919";
+}
+.fsi-reload:before {
+  content: "\e91a";
+}
+.fsi-search:before {
+  content: "\e91b";
+}
+.fsi-logo:before {
+  content: "\e900";
+}
+.fsi-logo-sm:before {
+  content: "\e91d";
+}
+.fsi-arrow-left-long:before {
+  content: "\e901";
+}
+.fsi-arrow-right-long:before {
+  content: "\e902";
+}
+.fsi-circle-filled:before {
+  content: "\e903";
+}
+.fsi-camera:before {
+  content: "\e91e";
+}
+.fsi-undo:before {
+  content: "\e965";
+}
+.fsi-redo:before {
+  content: "\e966";
+}
+.fsi-undo2:before {
+  content: "\e967";
+}
+.fsi-redo2:before {
+  content: "\e968";
+}
+.fsi-forward:before {
+  content: "\e969";
+}
+.fsi-reply:before {
+  content: "\e96a";
+}
+.fsi-bin:before {
+  content: "\e9ac";
+}
+.fsi-bin2:before {
+  content: "\e9ad";
+}
+.fsi-cross:before {
+  content: "\ea0f";
+}
+.fsi-checkmark:before {
+  content: "\ea10";
+}
+.fsi-checkmark2:before {
+  content: "\ea11";
+}
+.fsi-loop:before {
+  content: "\ea2d";
+}
+.fsi-loop2:before {
+  content: "\ea2e";
+}
